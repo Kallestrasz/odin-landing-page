@@ -83,6 +83,24 @@ body{
 .quote-author{
     text-align: end;
 }
+
+.signup{
+    margin-top: 36px;
+    margin-bottom: 64px;
+    gap: 32px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px;
+    border-radius: 15px;
+}
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 h2{
     text-align: center;
 }
