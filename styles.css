@@ -75,7 +75,14 @@ body{
 }
 
 
-
+.quote{
+    margin-top: 32px;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+.quote-author{
+    text-align: end;
+}
 h2{
     text-align: center;
 }
