@@ -8,7 +8,7 @@ body{
     overflow-x:hidden; 
     overflow-y:auto;
  }
-
+ 
  header,
  .upper-container,
  .quote,
@@ -17,6 +17,12 @@ body{
     margin: auto;
     flex: 0 0 80%;
     max-width: 80%;
+ }
+
+ header,
+ .upper-container,
+ footer{
+    background-color: #1F2937;
  }
 
  header{
@@ -34,24 +40,21 @@ body{
     margin-top: 10vh;
 }
 
+
 .mfumo,
 .sign{
   height: 80%;
   width: 80%;
 }
-.mfumo{
-    border: 4px solid #1F2937;
-    border-radius: 15px;
-    align-self: center;
-    max-height: 45vh;
-}
-.mfumo{
-    border: 4px solid #1F2937;
-    border-radius: 15px;
-    align-self: center;
-    max-height: 45vh;
-}
 
+
+
+.mfumo{
+    border: 4px solid #1F2937;
+    border-radius: 15px;
+    align-self: center;
+    max-height: 45vh;
+}
 .fumo-list{
     width: 80%;
     margin: auto;
@@ -79,10 +82,15 @@ body{
     margin-top: 32px;
     flex-direction: column;
     margin-bottom: 32px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
 }
 .quote-author{
     text-align: end;
+    font-weight: bold;
 }
+
 
 .signup{
     margin-top: 36px;
@@ -92,8 +100,10 @@ body{
     width: 80%;
     justify-content: space-between;
     align-items: center;
+    background-color: #3882F6;
     padding: 28px;
     border-radius: 15px;
+    color: white;
 }
 .signup-container{
     display: flex;
@@ -101,11 +111,58 @@ body{
     justify-content: space-between;
 }
 
-footer{
+
+ footer{
     padding: 16px;
     text-align: center;
+    color: white;
 }
 
+button{
+    width: 80px;
+    height: 40px;
+    background-color: #3882F6;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #E5E7Eb;
+    color: #E5E7Eb;
+}
+.hbtn{
+    margin-top: 16px;
+}
+a {
+    text-decoration: none;
+    color: #E5E7Eb;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+ul,
+h1{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+    color: #F9FaF8;
+}
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
 h2{
     text-align: center;
+    font-size: 36px;
+}
+h3,
+.description{
+    color: #E5E7Eb;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+ ul {
+    display: flex;
+    text-decoration: none;
+    color: grey;
+    list-style: none;
+  }
+.backgroundup{
+    background-color: #1F2937;
 }
