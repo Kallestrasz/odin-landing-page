@@ -101,6 +101,11 @@ body{
     justify-content: space-between;
 }
 
+footer{
+    padding: 16px;
+    text-align: center;
+}
+
 h2{
     text-align: center;
 }
