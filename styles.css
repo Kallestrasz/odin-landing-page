@@ -30,8 +30,8 @@ body{
     padding: 20px;
     justify-content: space-between;
     align-items: center;
-    
  }
+
 .upper-container{
     width: 80%;
     justify-content: center;
@@ -39,7 +39,6 @@ body{
     margin-bottom: 15vh;
     margin-top: 10vh;
 }
-
 
 .mfumo,
 .sign{
@@ -158,6 +157,7 @@ h3,
     font-size: 24px;
 }
  ul {
+     margin-top: 2.5vh;
     display: flex;
     text-decoration: none;
     color: grey;
